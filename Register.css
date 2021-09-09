@@ -1,0 +1,45 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  text-decoration: none;
+}
+
+body{
+  background-color: #8395a7;
+}
+
+.box h1{
+  text-align: center;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  transition: .6s;
+  color: #2e86de;
+}
+.box{
+  width: 450px;
+  height: 520px;
+  background-color: #576574;
+  margin: 10% auto;
+  padding: 40px;
+  border-radius: 10px;
+
+}
+
+.box .form-group{
+  margin-bottom: 1px;
+  width: 100%;
+}
+
+.box .form-group .btn{
+  background-color:#0abde3;
+  width: 100%;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.sign-in a{
+    font-size: 19px;
+}

@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  background: #576574;
+}
+.container{
+    width: 400px;
+    height: 500px;
+    background-color: #bdc3c7;
+    margin: 10% auto;
+    color: #2d3436;
+    border-radius: 15px;
+    padding: 60px;
+    transition: .5s;
+}
+.container  h3{
+    text-align: center;
+    margin: 15px 0;
+    letter-spacing: 1px;
+    color: #487eb0;
+}
+.container  h1{
+    text-align: center;
+    margin: 15px 0;
+    letter-spacing: 1px;
+    color: #273c75;
+}
+
+.container form{
+   margin-top: 35px;
+}
+.container .form-group{
+    margin-bottom: 10px;
+    width: 100%;
+}
+.container .form-group .form-control{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding: 5px;
+    width: 100%;
+}
+.container .form-group .log-btn{
+    border: 0;
+    background-image: linear-gradient(100deg,#D63994,#86A8E7,#5FFBF1);
+    padding: 10px 0;
+    color: #ccc;
+    font-size: 12px;
+    letter-spacing: .5px;
+    margin-top: 5px;
+    background-size: 200%;
+    transition: .5s;
+}
+
+.container .sign-up a{
+    transition: .5s;
+    font-size: 17px;
+    margin-left: 2px;
+    display: inline-block;
+    color: #54a0ff;
+
+}
